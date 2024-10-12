@@ -11,14 +11,14 @@ p {
 }
 
 @font-face {
-  font-family: f;
-  src: url(C:\Users\pilar\Documents\pag pawcooooo aaaaa\PAW CONTROL PAG\fonts\nikamaru.otf);
+  font-family: 'maiden';
+  src: url(C:\Users\pilar\PILAR\Documentos\GitHub\Paw-Control-WEBPAGE\PAW CONTROL PAG\fonts\MaidenOrange-Regular.ttf);
 }
 
 #tituloo{
   color: rgb(213, 255, 250);
   font-size: 50px;
-  font-family: 'nikamaru', sans-serif;
+  font-family: 'maiden', sans-serif;
 
 }
 
