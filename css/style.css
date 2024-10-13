@@ -62,8 +62,10 @@ p {
 
 .separador{
   color:#2b2e98;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .layout_padding {
