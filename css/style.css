@@ -13,6 +13,7 @@ body {
 
 p {
   font-family: "Open Sans", sans-serif;
+  font-size: 18px;
 }
 
 #titulop{
@@ -23,6 +24,10 @@ p {
   letter-spacing: 3px;
   -webkit-transform: scaleY(0.90);
   padding: 0;
+}
+
+#nosotros{
+  font-size: 40px;
 }
 
 .maiden-orange-regular {
@@ -809,7 +814,7 @@ a:focus {
 /* info section */
 .info_section {
   position: relative;
-  background-color: #2d4387;
+  background-color: #2d3385;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
 }
