@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Maiden+Orange&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #000000;
   background-color: #ffffff;
 }
@@ -15,9 +16,13 @@ p {
 }
 
 #titulop{
-  color: rgb(213, 255, 250);
-  font-size: 50px;
-  font-family: "Josefin Sans", serif;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px #102779;
+  font-size: 70px;
+  font-family: "Maiden Orange", sans-serif;
+  letter-spacing: 3px;
+  -webkit-transform: scaleY(0.90);
+  padding: 0;
 }
 
 .maiden-orange-regular {
@@ -32,23 +37,22 @@ p {
   font-style: normal;
 }
 
-.josefin-sans-uniquifier {
-  font-family: "Josefin Sans", serif;
+.montserrat-uniquifier {
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
 }
 
-
 .cuerpo{
   color: rgb(255, 255, 255);
-  background-color: rgba(151, 222, 241, 0.279);
-  border-radius: 30px;
+  background-color: rgba(45, 50, 187, 0.507);
+  border-radius: 20px;
   padding: 20px;
-  font-size: 20px;
+  font-size: 21.5px;
   line-height: 1.25;
+  text-align: center;
   font-family: "Lato", sans-serif;
-  ;
 }
 
 .layout_padding {
@@ -309,7 +313,7 @@ a:focus {
   top: 0;
   left: 0;
   background-color: black;
-  background-color: rgba(83, 119, 128, 0.95);
+  background-color: rgba(102, 231, 130, 0.95);
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -499,10 +503,10 @@ a:focus {
 }
 
 .service_section .box .img-box img {
-  max-width: 75px;
-  max-height: 75px;
-  -webkit-filter: invert(46%) sepia(3%) saturate(3571%) hue-rotate(145deg) brightness(94%) contrast(91%);
-          filter: invert(46%) sepia(3%) saturate(3571%) hue-rotate(145deg) brightness(94%) contrast(91%);
+  max-width: 80px;
+  max-height: 80px;
+  -webkit-filter: invert(35%) sepia(50%) saturate(1500%) hue-rotate(202deg) brightness(65%) contrast(120%);
+  filter: invert(30%) sepia(50%) saturate(1500%) hue-rotate(202deg) brightness(65%) contrast(120%);
 }
 
 .service_section .box .detail-box {
@@ -542,7 +546,7 @@ a:focus {
 
 .service_section .btn-box a:hover {
   background-color: transparent;
-  color: #55e9bc;
+  color: #555fe9;
 }
 
 .about_section .row {
@@ -602,11 +606,11 @@ a:focus {
 .care_section .detail-box a {
   display: inline-block;
   padding: 10px 40px;
-  background-color: #55e9bc;
+  background-color: #5566e9;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  border: 1px solid #55e9bc;
+  border: 1px solid #6b55e9;
   border-radius: 3px;
   text-transform: uppercase;
   margin-top: 15px;
@@ -614,7 +618,7 @@ a:focus {
 
 .care_section .detail-box a:hover {
   background-color: transparent;
-  color: #55e9bc;
+  color: #6155e9;
 }
 
 .client_section {
@@ -660,7 +664,7 @@ a:focus {
 .client_section .box .img-box img {
   width: 100%;
   border-radius: 100%;
-  border: 5px solid #2f2fbc;
+  border: 5px solid #57b7a8;
 }
 
 .client_section .box .detail-box {
@@ -687,7 +691,7 @@ a:focus {
   text-transform: none;
   font-size: 16px;
   font-weight: normal;
-  color: #537780;
+  color: #2b2e98;
 }
 
 .client_section .box .detail-box p {
@@ -715,7 +719,7 @@ a:focus {
   width: 50px;
   height: 30px;
   border-radius: 5px;
-  background-color: #3890d7;
+  background-color: #57b7a8;
   outline: none;
   color: #ffffff;
   font-size: 14px;
@@ -805,7 +809,7 @@ a:focus {
 /* info section */
 .info_section {
   position: relative;
-  background-color: #537780;
+  background-color: #2d4387;
   color: #ffffff;
   font-family: "Open Sans", sans-serif;
 }
