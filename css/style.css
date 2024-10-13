@@ -19,7 +19,7 @@ p {
 #titulop{
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 5px #102779;
-  font-size: 15px;
+  font-size: 30px;
   font-family: "Lato", sans-serif;
   letter-spacing: 3px;
   padding: 1;
@@ -54,7 +54,7 @@ p {
   background-color: rgba(45, 50, 187, 0.507);
   border-radius: 50px;
   padding: 20px;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.25;
   text-align: center;
   font-family: "Lato", sans-serif;
