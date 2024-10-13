@@ -13,13 +13,13 @@ body {
 
 p {
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 #titulop{
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 5px #102779;
-  font-size: 70px;
+  font-size: 55px;
   font-family: "Maiden Orange", sans-serif;
   letter-spacing: 3px;
   -webkit-transform: scaleY(0.90);
@@ -27,7 +27,7 @@ p {
 }
 
 #nosotros{
-  font-size: 40px;
+  font-size: px;
 }
 
 .maiden-orange-regular {
@@ -54,7 +54,7 @@ p {
   background-color: rgba(45, 50, 187, 0.507);
   border-radius: 20px;
   padding: 20px;
-  font-size: 21.5px;
+  font-size: 18px;
   line-height: 1.25;
   text-align: center;
   font-family: "Lato", sans-serif;
