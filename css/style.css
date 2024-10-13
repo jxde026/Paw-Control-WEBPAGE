@@ -15,7 +15,7 @@ p {
   src: url(C:\Users\pilar\PILAR\Documentos\GitHub\Paw-Control-WEBPAGE\PAW CONTROL PAG\fonts\MaidenOrange-Regular.ttf);
 }
 
-#tituloo{
+.tituloo{
   color: rgb(213, 255, 250);
   font-size: 50px;
   font-family: 'maiden', sans-serif;
