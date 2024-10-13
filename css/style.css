@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap");
 @import url("font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Maiden+Orange&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 body {
   font-family: 'Poppins', sans-serif;
   color: #000000;
@@ -10,17 +14,31 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-@font-face {
-  font-family: 'maiden';
-  src: url(C:\Users\pilar\PILAR\Documentos\GitHub\Paw-Control-WEBPAGE\PAW-CONTROL-PAG\fonts\MaidenOrange-Regular.ttf);
-}
-
-.tituloo{
+#titulop{
   color: rgb(213, 255, 250);
   font-size: 50px;
-  font-family: 'maiden', sans-serif;
-
+  font-family: "Josefin Sans", serif;
 }
+
+.maiden-orange-regular {
+  font-family: "Maiden Orange", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.josefin-sans-uniquifier {
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 
 .cuerpo{
   color: rgb(255, 255, 255);
@@ -29,6 +47,8 @@ p {
   padding: 20px;
   font-size: 20px;
   line-height: 1.25;
+  font-family: "Lato", sans-serif;
+  ;
 }
 
 .layout_padding {
