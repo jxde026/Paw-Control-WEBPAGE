@@ -120,6 +120,8 @@ p {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  align-items: center;
+  align-content: ;
 }
 
 /*header section*/
